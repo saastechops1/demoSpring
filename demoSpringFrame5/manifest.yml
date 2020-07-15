@@ -1,0 +1,7 @@
+applications:
+- name: studentService
+  memory: 1024M
+  timeout: 300
+  host: studentservice
+  random-route: true
+  path: ./target/demoSpringFrame5-0.0.1-SNAPSHOT.war
